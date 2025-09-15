@@ -22,3 +22,6 @@ npm i @lottiefiles/dotlottie-react
 ### アニメーションの表示 React
 - 大きさはCSSで変える。
   - TailwindCSS使える。
+- 任意のタイミングで再生がかなりややこしい。
+  - AIや公式に書いてある方法だと、TypeScriptでは実装できなかった。
+  - @lottiefiles/dotLottie-reactと@lottiefiles/dotLottie-webを両方インストールして、DotLottieはdotLottie-webから取得することで、実装できた。
